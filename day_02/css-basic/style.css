@@ -1,0 +1,52 @@
+h2 {
+    color: red;
+}
+
+/* Chọn thẻ có id là "heading" */
+#heading {
+    color: blue;
+}
+
+p {
+    color: cornflowerblue;
+}
+
+.text {
+    background-color: bisque;
+}
+
+/* Chọn thẻ p vừa có class là "text" vừa có class là "text1" */
+p.text.text1 {
+    font-size: 18px;
+}
+
+/* Chọn thẻ vừa có class là "text" vừa có class là "text1" */
+.text.text1 {
+    font-size: 20px;
+}
+
+/* Chọn thẻ có class là "text1" */
+.text1 {
+    font-size: 26px;
+}
+
+/* Chọn thẻ p nằm bên trong thẻ có class là "box" */
+.box p {
+    font-weight: bold;
+}
+
+/* Chọn thẻ h2 và thẻ p */
+h2, p {
+    text-align: center;
+}
+
+/* Chọn 1 class  tên .box nằm ngay sau thẻ có id = "heading" */
+#heading + .box {
+    background-color: cadetblue;
+}
+
+
+/* Chọn nhiều class "text" nằm ngay sau thẻ p */
+p ~ .text {
+    font-style: italic;
+}
