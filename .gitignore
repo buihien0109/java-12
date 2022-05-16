@@ -1,0 +1,11 @@
+# content.txt
+
+# message.txt
+
+*.txt
+
+content/
+
+**/.DS_Store
+
+**/.vscode
