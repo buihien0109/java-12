@@ -1,0 +1,45 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: chocolate;
+
+    /* transition-property: width, height;
+    transition-duration: 1s, 2s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out; */
+
+    transition: all 1s ease-in-out 1s;
+}
+
+.box:hover {
+    width: 400px;
+    height: 400px;
+}
+
+.text {
+    width: 400px;
+    padding: 20px;
+    background-color: bisque;
+}
+
+.text {
+    margin: auto;
+    overflow: hidden;
+}
+
+/* .text p {
+    transform: translateX(430px);
+    opacity: 0;
+
+    transition: all 1s;
+}
+
+.text:hover p {
+    transform: translateX(0px);
+    opacity: 1;
+} */
+
+/* Thực hành : 
+1. Sử dụng thuộc tính position để làm hiệu ứng tương tự
+2. Bổ sung thêm 1 thẻ h2 có nội dụng bất kỳ, làm tương tự như thẻ p nhưng đi từ trái vào
+*/
