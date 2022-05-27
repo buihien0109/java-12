@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
 .box {
     width: 200px;
     height: 200px;
@@ -142,5 +146,16 @@
     animation-name: fadeInLeft;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+}
+
+/* style fancyapp */
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.images a {
+    flex-basis: 33.33%;
 }
 
