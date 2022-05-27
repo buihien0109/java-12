@@ -126,3 +126,21 @@
     background: #869791;
 }
 
+/* Thư viên animate */
+.text {
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.text h2 {
+    margin-bottom: 20px;
+}
+
+.animate__fadeInLeft {
+    animation-name: fadeInLeft;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
